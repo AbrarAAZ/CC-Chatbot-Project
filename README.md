@@ -4,22 +4,13 @@ This is my chatbot Project...
 
 ## How to use it
 
-Run this command
+Start the Backend
 
-`streamlit run main.py`
+Before running the chatbot, start the FastAPI backend:
+`uvicorn backend:app --reload`
 
 
-<!--
-# SDA-bootcamp-project
+Start the Frontend
 
-Stage 1 - Basic Chatbot
-
-A basic chatbot using streamlit and openai api.
-
-Store your `OPENAI_API_KEY` in `.env` file. Run
-
-```
-streamlit run chatbot.py
-```
-to run the app.
--->
+Once the backend is running, launch the Streamlit app with:
+`streamlit run chatbot.py`
