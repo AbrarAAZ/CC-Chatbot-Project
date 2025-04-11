@@ -4,6 +4,9 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 #Secrets
+chat_logs/
+chroma_db/
+pdf_store/
 .env
 
 # User-specific files
