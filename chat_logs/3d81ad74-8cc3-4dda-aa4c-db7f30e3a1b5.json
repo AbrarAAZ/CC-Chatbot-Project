@@ -1,0 +1,26 @@
+[
+    {
+        "role": "user",
+        "content": "net revenue"
+    },
+    {
+        "role": "assistant",
+        "content": "Net revenue for Apple Inc. for the twelve months ended September 28, 2024, was $391.035 billion, and for the twelve months ended September 30, 2023, it was $383.285 billion. Net revenue is presented as total net sales, including both products and services, in the condensed consolidated statements of operations."
+    },
+    {
+        "role": "user",
+        "content": "profit and dept"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot provide information on Apple Inc.'s profit and debt based on the given context. The provided financial statements do not contain specific details related to profit or debt figures."
+    },
+    {
+        "role": "user",
+        "content": "gross profit"
+    },
+    {
+        "role": "assistant",
+        "content": "Apple Inc.'s gross profit can be calculated by subtracting the cost of sales from the net sales figure provided. For the three months ended September 28, 2024, the gross profit would be $94.930 billion - $0 (as no non-GAAP adjustments are specified), resulting in a gross profit of $94.930 billion."
+    }
+]
