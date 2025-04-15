@@ -43,4 +43,5 @@ jobs:
           --name CustomScript \
           --force-update \
           --publisher Microsoft.Azure.Extensions \
-          --settings '{"commandToExecute": "/home/azureuser/my-python-app/update_app.sh"}'
+          --settings '{"fileUris": []}' \
+          --protected-settings '{"commandToExecute": "export GITHUB_TOKEN=${{ secrets.TOKEN }} && sudo -u azureuser bash /home/azureuser/CC-Chatbot-Project/update_app.sh"}'
