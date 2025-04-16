@@ -45,3 +45,8 @@ jobs:
           --publisher Microsoft.Azure.Extensions \
           --settings '{"fileUris": []}' \
           --protected-settings '{"commandToExecute": "export GITHUB_TOKEN=${{ secrets.TOKEN }} && sudo -u azureuser bash /home/azureuser/CC-Chatbot-Project/update_app.sh"}'
+
+
+    - name: Debug Azure Login
+      run: az account show
+      shell: bash
